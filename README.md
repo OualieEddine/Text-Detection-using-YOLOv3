@@ -49,14 +49,14 @@ The last step in this phase, it to build the required libraries by running the f
 ```
 !make
 ```
-##Training
+## Training
 After adding the angle calculation, and pixels normalization in the training file (done in our project), now we have to launch the following command to start training
 ```
 !darknet/darknet detector train config_data/labelled_data.data darknet/cfg/yolov3_training.cfg darknet53.conv.74 -dont_show 
 ```
 PS: according to the limitations of using GPU in Google Colab, we used checkpoint in this project to save instance from the training phase
 
-##Testing
+## Testing
 Once the model finished the training, its ready to used for detecting
 In our project we used a checkpoint to test later
 First, its required to mount tensorflow 1 in our colab
