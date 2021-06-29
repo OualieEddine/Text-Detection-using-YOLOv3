@@ -76,7 +76,7 @@ As final step, we can print the image set after testing using the following comm
 !python print_after_data.py
 ```
 
-##Results Discussition
+## Results Discussition
 By running map.py script, we can obtain the evaluation of our model.
 In our case, we obtained the following Results:
 * Precision = 0.89
