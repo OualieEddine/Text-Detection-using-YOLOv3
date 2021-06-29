@@ -76,7 +76,7 @@ As final step, we can print the image set after testing using the following comm
 !python print_after_data.py
 ```
 As final step, we added the option of saving a txt file that cotnains the cardinalities of bounding box, which will help later in the case of recognition
-## Results Discussition
+## Results Discussion
 By running map.py script, we can obtain the evaluation of our model.
 In our case, we obtained the following Results:
 * Precision = 0.89
