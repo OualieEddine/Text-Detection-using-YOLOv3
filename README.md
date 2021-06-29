@@ -23,7 +23,9 @@ The last step in this phase is running the following script:
 !python xml_to_yolov3.py
 ```
 The previous script generate data_train.txt and data_test.txt which are text files that contains full paths of the train and test data set
-Generally in this step, we can add (xmin,ymin,w,h,angle) or putting the xml files in the same directory as images, and in our project we choosed the last one.
+Generally in this step, we can add (xmin,ymin,w,h,angle) or putting the xml files in the same directory as images, and in our project we choosed the last one and adding a txt file for each images contating the cardinalitines of all the text boxes in this picture.
+
+
 PS: dont forget to add another file.data which contains the paths of the previous txt files and the backup which new mobile-model will be saved
 OPTIONAL: in case you want to add any label with bounding box, all what is required is to create a new file.txt and saving the label on it, later it will be attached with training command.
 ## Preparing Model
