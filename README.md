@@ -67,6 +67,8 @@ After adding the angle calculation, and pixels normalization in the training fil
 ![training](https://user-images.githubusercontent.com/86682718/123943967-8eda7200-d994-11eb-925a-9bdde4c4667b.PNG)
 
 PS: according to the limitations of using GPU in Google Colab, we used checkpoint in this project to save instance from the training phase
+PS: You can always check the weights of the mobile model on the backup folder
+![kkkkk](https://user-images.githubusercontent.com/86682718/123945357-f7761e80-d995-11eb-80cb-eb425dfc851e.PNG)
 
 ## Testing
 Once the model finished the training, its ready to used for detecting
@@ -75,19 +77,30 @@ First, its required to mount tensorflow 1 in our colab
 ```
 %tensorflow_version 1.x
 ```
+![tt](https://user-images.githubusercontent.com/86682718/123944290-e678dd80-d994-11eb-956c-24285ed5f127.PNG)
+
 After uploading the set of test in the required file, we can print set py using the following command:
 ```
 !python print_data.py
 ```
+![download (6)](https://user-images.githubusercontent.com/86682718/123944317-ed075500-d994-11eb-83e8-435678819787.png)
+
 and py launching the following command, the model will start detecting text and bounding-box it 
 ```
 !python eval.py --test_data_path='imgs/' --gpu_list=0 --checkpoint_path='check/'  --output_dir='out/'
 ```
+![dd](https://user-images.githubusercontent.com/86682718/123944569-26d85b80-d995-11eb-9415-8c8b98d26359.PNG)
+
 As final step, we can print the image set after testing using the following command:
 ```
 !python print_after_data.py
 ```
+![download (1)](https://user-images.githubusercontent.com/86682718/123944353-f4c6f980-d994-11eb-81d6-e1660a74534c.png)
+
+Its required in the previous step to choose: Testin_Directory_Path, Model_Path, and Output_Path
+
 As final step, we added the option of saving a txt file that cotnains the cardinalities of bounding box, which will help later in the case of recognition
+
 ## Results Discussion
 By running map.py script, we can obtain the evaluation of our model.
 In our case, we obtained the following Results:
@@ -97,7 +110,8 @@ In our case, we obtained the following Results:
 * F-measure = 0.86
 * Accuracy = 0.94
 * (mAP@0.50) = 0.86
- 
+ ![zzzz](https://user-images.githubusercontent.com/86682718/123945265-df9e9a80-d995-11eb-8ac5-089c22f74c96.PNG)
+
 ## Conclusion
 I would like to thank all the teachers of our department, jurys, and special thank for my advisor: Dr.A.TIBERMACINE
 Concerning the futur works, we will try to publish a scientific publication concerning our work, and why not joining the benchmarking list.
