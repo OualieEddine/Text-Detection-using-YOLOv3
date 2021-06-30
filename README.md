@@ -110,6 +110,7 @@ In our case, we obtained the following Results:
 * F-measure = 0.86
 * Accuracy = 0.94
 * (mAP@0.50) = 0.86
+
  ![zzzz](https://user-images.githubusercontent.com/86682718/123945265-df9e9a80-d995-11eb-8ac5-089c22f74c96.PNG)
 
 ## Conclusion
