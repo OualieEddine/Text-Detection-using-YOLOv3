@@ -1,0 +1,6 @@
+model_checkpoint_path: "model.ckpt-OualiLast"
+all_model_checkpoint_paths: "model.ckpt-aymnfinale"
+all_model_checkpoint_paths: "model.ckpt-aymn02"
+all_model_checkpoint_paths: "model.ckpt-aymn01"
+all_model_checkpoint_paths: "model.ckpt-aymen"
+all_model_checkpoint_paths: "model.ckpt-aaaa"
