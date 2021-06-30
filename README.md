@@ -59,7 +59,7 @@ By running the following commands, the operation will be done
 ```
 ![Capture](https://user-images.githubusercontent.com/86682718/123943567-30ad8f00-d994-11eb-8269-6de2e3b7f119.PNG)
 
-The last step in this phase, it to build the required libraries by running the following command in the darknet resp:
+The last step in this phase, it to build the required C++ libraries by running the following command in the darknet resp:
 ```
 !make
 ```
