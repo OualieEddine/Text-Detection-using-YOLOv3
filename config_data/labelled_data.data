@@ -1,0 +1,5 @@
+classes = 1
+train = /content/drive/MyDrive/textdetection/config_data/data_train.txt
+valid = /content/drive/MyDrive/textdetection/config_data/data_test.txt
+names = /content/drive/MyDrive/textdetection/config_data/classes.names
+backup = /content/drive/MyDrive/textdetection/darknet/backup
