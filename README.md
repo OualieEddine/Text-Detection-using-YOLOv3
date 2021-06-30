@@ -67,10 +67,12 @@ After adding the angle calculation, and pixels normalization in the training fil
 ![training](https://user-images.githubusercontent.com/86682718/123943967-8eda7200-d994-11eb-925a-9bdde4c4667b.PNG)
 
 PS: according to the limitations of using GPU in Google Colab, we used checkpoint in this project to save instance from the training phase
+
 ![sssssss](https://user-images.githubusercontent.com/86682718/123950332-791c7b00-d99b-11eb-8956-fb04e8ecdce2.PNG)
 
 
 PS: You can always check the weights of the mobile model on the backup folder
+
 ![kkkkk](https://user-images.githubusercontent.com/86682718/123945357-f7761e80-d995-11eb-80cb-eb425dfc851e.PNG)
 
 ## Testing
