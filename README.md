@@ -9,6 +9,12 @@ This is my graduation project which consists at using YOLOv3 to detect HORIZONTA
 * Testing Colaboratory sheet: https://colab.research.google.com/drive/1zmuNx2VJzI8vQ8-kh1uL3JB157By6ait?usp=sharing
 * For future works, we are aiming to join the top bencharmking for this purpose.
 * PS: The model supports using any provided dataset that containing an angle.
+
+### PS: Concerning the prepared dataset, YOLOv3 weights, last mobile weight... and according to its large size (1GB) and the limitations of github on the uploaded file size, all the previous mentioned files are available on my drive and you can download it from the following link: 
+https://drive.google.com/drive/folders/1jyoanDf5DyLUx8ah2r9pIHbZ4i_pNek0?usp=sharing
+
+https://drive.google.com/drive/folders/1-tYGsCONOz2WphUibSZps08jV5DZeqhI?usp=sharing
+
 ## Preprocessing
 After downloading the data set, the first step is to generate the annotations (using XML files)
 The following command generates train and test directories that contains:
@@ -119,8 +125,8 @@ In our case, we obtained the following Results:
  ![zzzz](https://user-images.githubusercontent.com/86682718/123945265-df9e9a80-d995-11eb-8ac5-089c22f74c96.PNG)
 
 ## Conclusion
-I would like to thank all the teachers of our department, jurys, and special thank for my advisor: Dr.A.TIBERMACINE
-Concerning the futur works, we will try to publish a scientific publication concerning our work, and why not joining the benchmarking list.
+### I would like to thank all the teachers of our department, jurys, and special thank for my advisor: Dr.A.TIBERMACINE
+### Concerning the futur works, we will try to publish a scientific publication concerning our work, and why not joining the benchmarking list.
 
 
 
