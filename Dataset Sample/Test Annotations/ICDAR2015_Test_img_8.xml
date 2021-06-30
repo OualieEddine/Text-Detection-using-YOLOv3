@@ -1,0 +1,35 @@
+<annotation>
+    <folder>VOC2007</folder>
+    <filename>ICDAR2015_Test_img_8.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>text</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <x>925.5</x>
+            <y>435.0</y>
+            <w>108.46197490364999</w>
+            <h>30.4138126514911</h>
+            <theta>5.290081295610328</theta>
+        </bndbox>
+    </object>
+    <object>
+        <name>text</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <x>505.0</x>
+            <y>94.5</y>
+            <w>68.59300255857006</w>
+            <h>16.1245154965971</h>
+            <theta>7.539445268118379</theta>
+        </bndbox>
+    </object>
+</annotation>

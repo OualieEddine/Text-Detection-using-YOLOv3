@@ -1,0 +1,35 @@
+<annotation>
+    <folder>VOC2007</folder>
+    <filename>ICDAR2015_Train_img_5.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>text</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <x>421.0</x>
+            <y>435.0</y>
+            <w>39.6232255123179</w>
+            <h>25.179356624028344</h>
+            <theta>-42.95459224383912</theta>
+        </bndbox>
+    </object>
+    <object>
+        <name>text</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <x>439.0</x>
+            <y>450.5</y>
+            <w>27.073972741361768</w>
+            <h>8.48528137423857</h>
+            <theta>85.76360666391056</theta>
+        </bndbox>
+    </object>
+</annotation>
