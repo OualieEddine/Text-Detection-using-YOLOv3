@@ -125,7 +125,7 @@ In our case, we obtained the following Results:
  ![zzzz](https://user-images.githubusercontent.com/86682718/123945265-df9e9a80-d995-11eb-8ac5-089c22f74c96.PNG)
 
 ## Conclusion
-### I would like to thank all the teachers of our department, jurys, and special thank for my advisor: Dr.A.TIBERMACINE
+### I would like to thank all the teachers of our department, jurys, and special thank for my supervisor: Dr.A.TIBERMACINE
 ### Concerning the futur works, we will try to publish a scientific publication concerning our work, and why not joining the benchmarking list.
 
 
