@@ -15,6 +15,8 @@ The following command generates train and test directories that contains:
 * Annotations: directory that contains the XML files
 * JPEGImages: directory that contains re-nammed data set
 * ImageSets: directory that contains labels of the images
+![data](https://user-images.githubusercontent.com/86682718/123941929-8f720900-d992-11eb-9746-8658b0591f8a.PNG)
+
 ```
 !python data_to_xml.py
 ```
@@ -22,6 +24,8 @@ The last step in this phase is running the following script:
 ```
 !python xml_to_yolov3.py
 ```
+![last](https://user-images.githubusercontent.com/86682718/123941767-63ef1e80-d992-11eb-8e98-85c793548596.PNG)
+
 The previous script generate data_train.txt and data_test.txt which are text files that contains full paths of the train and test data set
 Generally in this step, we can add (xmin,ymin,w,h,angle) or putting the xml files in the same directory as images, and in our project we choosed the last one and adding a txt file for each images contating the cardinalitines of all the text boxes in this picture.
 
@@ -47,15 +51,21 @@ By running the following commands, the operation will be done
 !sed -i '689 s@filters=255@filters=18@' cfg/yolov3_training.cfg
 !sed -i '776 s@filters=255@filters=18@' cfg/yolov3_training.cfg
 ```
+![Capture](https://user-images.githubusercontent.com/86682718/123943567-30ad8f00-d994-11eb-8269-6de2e3b7f119.PNG)
+
 The last step in this phase, it to build the required libraries by running the following command in the darknet resp:
 ```
 !make
 ```
+![gg](https://user-images.githubusercontent.com/86682718/123943806-66527800-d994-11eb-973a-14afbcfc0119.PNG)
+
 ## Training
 After adding the angle calculation, and pixels normalization in the training file (done in our project), now we have to launch the following command to start training
 ```
 !darknet/darknet detector train config_data/labelled_data.data darknet/cfg/yolov3_training.cfg darknet53.conv.74 -dont_show 
 ```
+![training](https://user-images.githubusercontent.com/86682718/123943967-8eda7200-d994-11eb-925a-9bdde4c4667b.PNG)
+
 PS: according to the limitations of using GPU in Google Colab, we used checkpoint in this project to save instance from the training phase
 
 ## Testing
