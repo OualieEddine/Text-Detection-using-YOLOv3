@@ -33,7 +33,7 @@ The last step in this phase is running the following script:
 ![last](https://user-images.githubusercontent.com/86682718/123941767-63ef1e80-d992-11eb-8e98-85c793548596.PNG)
 
 The previous script generate data_train.txt and data_test.txt which are text files that contains full paths of the train and test data set
-Generally in this step, we can add (xmin,ymin,w,h,angle) or putting the xml files in the same directory as images, and in our project we choosed the last one and adding a txt file for each images contating the cardinalitines of all the text boxes in this picture.
+Generally in this step, we can add (x,y,w,h,angle) or putting the xml files in the same directory as images, and in our project we choosed the last one and adding a txt file for each images contating the cardinalitines of all the text boxes in this picture.
 
 
 PS: dont forget to add another file.data which contains the paths of the previous txt files and the backup which new mobile-model will be saved
